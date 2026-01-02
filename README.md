@@ -69,3 +69,35 @@ CSV çıktısı alma
 ```powershell
 .\Get-ADComputerHygieneReport.ps1 -ExportCsv -ExportPath "C:\Temp\ad_computer_hygiene.csv"
 ```
+
+<div align="center">
+<hr/>
+
+<img src="https://img.shields.io/badge/Kurum-Kalkinma%20Ajanslari%20Genel%20Mudurlugu-blue"/>
+<img src="https://img.shields.io/badge/Kapsam-Kamu%20Bilgi%20Sistemleri%20ve%20Guvenlik-lightgrey"/>
+
+<a href="https://www.ka.gov.tr" target="_blank">
+  <img src="https://img.shields.io/badge/Web-ka.gov.tr-darkgreen"/>
+</a>
+
+<a href="https://www.kalkinmagalerisi.org.tr" target="_blank">
+  <img src="https://img.shields.io/badge/Kalkinma%20Galerisi-kalkinmagalerisi.org.tr-6f42c1"/>
+</a>
+
+<a href="https://www.yatirimadestek.gov.tr" target="_blank">
+  <img src="https://img.shields.io/badge/Yatirima%20Destek-yatirimadestek.gov.tr-success"/>
+</a>
+
+<a href="https://yerelkalkinmahamlesi.sanayi.gov.tr" target="_blank">
+  <img src="https://img.shields.io/badge/Yerel%20Kalkinma%20Hamlesi-sanayi.gov.tr-orange"/>
+</a>
+
+<a href="https://www.instagram.com/kalkinmaajansgm/" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-kalkinmaajansgm-pink"/>
+</a>
+
+<a href="https://www.linkedin.com/company/kalkinmaajansgenelm%C3%BCd%C3%BCrl%C3%BC%C4%9F%C3%BC/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Kalkinma%20Ajanslari%20Genel%20Mudurlugu-blue"/>
+</a>
+
+</div>
