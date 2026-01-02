@@ -39,23 +39,33 @@ Script aşağıdaki kontrolleri gerçekleştirir:
 ## Kullanım
 
 ### Varsayılan kullanım
-> 90 gün pasiflik ve 180 gün parola süresi eşikleri ile çalışır.
+
+90 gün pasiflik ve 180 gün parola süresi eşikleri ile çalışır.
 
 ```powershell
 .\Get-ADComputerHygieneReport.ps1
-
 ```
-> Pasiflik ve parola eşiklerini değiştirme
+
+Pasiflik ve parola eşiklerini değiştirme
+
+```powershell
 .\Get-ADComputerHygieneReport.ps1 -InactiveDays 60 -PasswordStaleDays 120
-
 ```
-> Belirli bir OU altında çalıştırma
+
+Belirli bir OU altında çalıştırma
+
+```powershell
 .\Get-ADComputerHygieneReport.ps1 -SearchBase "OU=Computers,DC=domain,DC=local"
-
 ```
-> Disabled bilgisayarları da dahil etme
+
+Disabled bilgisayarları da dahil etme
+
+```powershell
 .\Get-ADComputerHygieneReport.ps1 -IncludeDisabled
-
 ```
-> CSV çıktısı alma
+
+CSV çıktısı alma
+
+```powershell
 .\Get-ADComputerHygieneReport.ps1 -ExportCsv -ExportPath "C:\Temp\ad_computer_hygiene.csv"
+```
